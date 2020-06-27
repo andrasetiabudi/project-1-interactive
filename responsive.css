@@ -1,0 +1,78 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  footer img {
+    margin-left: 0;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  
+  /* Add CSS for header-right */
+  .header-right {
+    display:none;
+  }
+  
+  /* Add CSS for menu-icon */
+  .menu-icon {
+    display:block;
+  }
+  .topnav #myLinks {
+  display: none;
+}
+  .topnav #myLinks a{
+    padding: 0 0px;
+    padding: 0 7px;
+    margin-right: 0px;
+    font-size: 13px;
+  }
+  .topnav button{
+    margin-right: 66px;
+    margin-left: 1px;
+    padding: 0 0px;
+  }
+  .topnav a.icon{
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
